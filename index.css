@@ -1,0 +1,29 @@
+.Whole_container{
+    height: 100vh;
+}
+.body_container{
+    /* height: 90vh;
+    overflow-y: auto; */
+}
+.body_container > div{
+    height: 90vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    padding: 0 16px;
+}
+.card_container{
+    
+    display: grid;
+    grid-row-gap: 16px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+}
+.card_data{
+    text-align: center;
+    width: 300px;
+    padding: 16px;
+}
+.help-block{
+    color: red;
+}
